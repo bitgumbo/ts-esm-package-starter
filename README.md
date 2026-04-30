@@ -1,4 +1,4 @@
-# Modern TypeScript ESM package starter
+# Modern TypeScript ESM package starter (ts-esm-package-starter)
 
 A fully configured, batteries-included starter for modern **TypeScript** packages using **ESM**. 
 
@@ -27,7 +27,7 @@ Have your package ready to be published in less than 5 minutes (aside from writi
 
 ## 🚀 Getting Started
 ### Copy the repository template
-From the [Github page](https://github.com/bitgumbo/node-ts-esm-starter) for this repo, click the **"Use this template"** button and select **"Create a new repository".**  
+From the [Github page](https://github.com/bitgumbo/ts-esm-package-starter) for this repo, click the **"Use this template"** button and select **"Create a new repository".**  
 
 Fill in the metadata as you wish, and click **"Create repository".** You should now have a copy of this repo in your account.
 
