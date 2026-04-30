@@ -26,7 +26,6 @@
     "typeRoots": ["node_modules/@types"],
     "types": ["node"],
     "resolveJsonModule": true,
-    "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"]
     },
