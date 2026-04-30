@@ -1,11 +1,11 @@
-# node-ts-esm-starter
+# Modern TypeScript ESM package starter
 
-A fully configured, batteries-included starter for modern **Node.js + TypeScript** packages using **ESM**. 
+A fully configured, batteries-included starter for modern **TypeScript** packages using **ESM**. 
 
 Have your package ready to be published in less than 5 minutes (aside from writing your actual code).
 
 ## ✨ Features
-- ⚡  **Node.js + TypeScript (ESM)** – Modern setup with sensible defaults  
+- ⚡  **TypeScript (ESM)** – Modern setup with sensible defaults  
 - 🧹 **Biome** – Formatting and linting
 - ✅ **Vitest** – Fast, modern test runner  
 - 🛡 **AreTheTypesWrong** – Validate published type definitions  
