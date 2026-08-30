@@ -27,7 +27,6 @@
     "paths": {
       "@/*": ["./src/*"]
     },
-    "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true,
     "verbatimModuleSyntax": true,
 
