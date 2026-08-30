@@ -16,7 +16,7 @@
     "incremental": true,
     "isolatedModules": false,
     "composite": false,
-    "tsBuildInfoFile": ".tsbuildinfo",
+    "tsBuildInfoFile": "dist/.tsbuildinfo",
 
     /* Type Optioins */
     "declaration": true,
