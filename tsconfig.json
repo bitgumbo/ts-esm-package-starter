@@ -6,7 +6,6 @@
     "module": "esnext",
     "moduleResolution": "bundler",
     "skipLibCheck": true,
-    "esModuleInterop": true,
     "lib": ["ES2020"],
 
     /* Build Options */
