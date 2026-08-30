@@ -7,7 +7,6 @@
   "author": "Your Name <your-email>",
   "license": "MIT",
   "type": "module",
-  "module": "./dist/index.js",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
