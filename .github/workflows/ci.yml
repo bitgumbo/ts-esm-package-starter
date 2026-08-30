@@ -22,6 +22,7 @@ jobs:
       - run: npx biome ci
       - run: npm run typecheck
       - run: npm run attw
+      - run: npm run fmt-yaml
 
   # Vitest
   tests:
