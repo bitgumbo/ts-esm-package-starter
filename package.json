@@ -30,7 +30,7 @@
     "biome:fix": "npm run biome -- --fix",
     "biome:staged": "npm run biome -- --staged --no-errors-on-unmatched --files-ignore-unknown=true",
     "typecheck": "tsc -p ./src/tsconfig.json --declaration --noEmit --incremental false",
-    "check": "concurrently npm:typecheck npm:biome",
+    "check": "concurrently npm:typecheck npm:biome npm:fmt-yaml",
     "attw": "npm run build && attw",
     "vitest": "vitest -c vitest.config.ts",
     "test": "npm run vitest -- --run",
