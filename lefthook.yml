@@ -11,7 +11,7 @@ pre-commit:
       run: npm run fmt:staged
     format-yaml:
       glob: "*.{yml,yaml}"
-      run: npx prettier --check {staged_files}
+      run: prettier --check {staged_files}
 
 commit-msg:
   commands:
