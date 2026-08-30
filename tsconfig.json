@@ -13,7 +13,7 @@
     "sourceMap": true,
     "removeComments": false,
     "incremental": true,
-    "isolatedModules": false,
+    // "isolatedModules": false,
     "composite": false,
     "tsBuildInfoFile": "dist/.tsbuildinfo",
 
