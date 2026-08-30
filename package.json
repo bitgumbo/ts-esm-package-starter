@@ -40,7 +40,7 @@
     "tsc:dev": "tsc -p ./src/tsconfig.dev.json",
     "tsc:build": "tsc -p ./src/tsconfig.build.json",
     "tsc-alias": "tsc-alias -p ./src/tsconfig.build.json",
-    "tsc-alias:watch": "tsc-alias -p ./src/tsconfig.dev.json -- -w",
+    "tsc-alias:watch": "tsc-alias -p ./src/tsconfig.dev.json -w",
     "build": "npm run clean && npm run tsc:build && npm run tsc-alias",
     "build:docs": "typedoc",
     "watch:ts": "concurrently  'npm run tsc:dev -- --watch' 'npm run tsc-alias:watch'",
