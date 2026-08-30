@@ -41,7 +41,7 @@
     "strictBindCallApply": true,
     "strictPropertyInitialization": true,
     "noImplicitThis": true,
-    "exactOptionalPropertyTypes": false,
+    "exactOptionalPropertyTypes": true,
 
     /* Other Safeguards */
     "noUnusedLocals": true,

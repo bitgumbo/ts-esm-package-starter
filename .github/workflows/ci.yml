@@ -8,6 +8,8 @@ jobs:
   # Static Checks (Lint, Format, Typecheck)
   static-checks:
     name: Static Checks
+    permissions:
+      contents: read
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
@@ -24,6 +26,8 @@ jobs:
   # Vitest
   tests:
     name: Tests on Node ${{ matrix.node }}
+    permissions:
+      contents: read
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
