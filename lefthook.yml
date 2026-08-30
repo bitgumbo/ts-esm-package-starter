@@ -4,8 +4,10 @@ pre-commit:
     typecheck:
       run: npm run typecheck
     lint:
+      glob: "*.{js,jsx,ts,tsx,json,jsonc}"
       run: npm run lint:staged
     format:
+      glob: "*.{js,jsx,ts,tsx,json,jsonc}"
       run: npm run fmt:staged
 
 commit-msg:
