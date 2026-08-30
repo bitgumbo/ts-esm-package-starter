@@ -24,6 +24,8 @@
     "fmt": "biome format",
     "fmt:fix": "npm run fmt -- --fix",
     "fmt:staged": "npm run fmt -- --staged --files-ignore-unknown=true",
+    "fmt-yaml": "prettier . --check",
+    "fmt-yaml:fix": "prettier . --write",
     "biome": "biome check",
     "biome:fix": "npm run biome -- --fix",
     "biome:staged": "npm run biome -- --staged --no-errors-on-unmatched --files-ignore-unknown=true",

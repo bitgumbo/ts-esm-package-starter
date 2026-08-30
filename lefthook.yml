@@ -9,6 +9,10 @@ pre-commit:
     format:
       glob: "*.{js,jsx,ts,tsx,json,jsonc}"
       run: npm run fmt:staged
+    format-yaml:
+      glob: "*.yml"
+
+      run: npx prettier --check {staged_files}
 
 commit-msg:
   commands:
@@ -26,6 +30,9 @@ pre-push:
     format:
       glob: "*.{js,jsx,ts,tsx,json,jsonc}"
       run: npm run fmt
+    format-yaml:
+      glob: "*.yml"
+      run: npm run prettier --check
     tests:
       run: npm run test:cov
     are-the-types-wrong:

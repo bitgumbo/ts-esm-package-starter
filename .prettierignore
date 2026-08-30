@@ -1,0 +1,15 @@
+# 1. Block folders Prettier should NEVER look into
+node_modules/
+.git/
+dist/
+coverage/
+
+# 2. Ignore all other files by default
+**/*
+
+# 3. Allow Prettier to traverse into unblocked directories
+!**/
+
+# 4. Only format YAML files
+!**/*.yml
+!**/*.yaml
