@@ -1,4 +1,4 @@
-/* Root TsConfig - Does not specify any inclues, and is primarily for IDE support and common settings to extend from */
+/* Root TsConfig - Does not specify any includes, and is primarily for IDE support and common settings to extend from */
 {
   "exclude": ["node_modules", "dist", "docs", "coverage"],
   "compilerOptions": {
@@ -17,7 +17,7 @@
     "composite": false,
     "tsBuildInfoFile": "dist/.tsbuildinfo",
 
-    /* Type Optioins */
+    /* Type Options */
     "declaration": true,
     "declarationMap": true,
 
