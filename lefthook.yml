@@ -1,10 +1,12 @@
 pre-commit:
   parallel: true
   commands:
-    type-check:
+    typecheck:
       run: npm run typecheck
-    biome-check:
-      run: npm run biome -- --staged --no-errors-on-unmatched --files-ignore-unknown=true
+    lint:
+      run: npm run lint:staged
+    format:
+      run: npm run fmt:staged
 
 commit-msg:
   commands:
@@ -14,9 +16,13 @@ commit-msg:
 pre-push:
   parallel: true
   commands:
-    check: # lint, format, typecheck
-      run: npm run check
-    run-tests: #vitest
+    typecheck:
+      run: npm run typecheck
+    lint:
+      run: npm run lint
+    format:
+      run: npm run fmt
+    tests:
       run: npm run test:cov
-    are-the-types-wrong: #attw
+    are-the-types-wrong:
       run: npm run attw
