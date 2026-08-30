@@ -113,7 +113,7 @@ Time to make that test pass!
  * 
  * @param num - The number to square
  */
-export const square = (num) => num * num;
+export const square = (num: number) => num * num;
 ```
 
 ---
