@@ -1,6 +1,6 @@
 {
   "name": "your-next-awesome-package",
-  "private": false,
+  "private": true,
   "version": "0.0.0",
   "description": "Start your next typescript package with a light, robust and production-ready repo.",
   "keywords": [],

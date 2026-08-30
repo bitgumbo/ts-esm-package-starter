@@ -73,7 +73,7 @@ Next, add the token to your repository secrets:
 4. Name it `NPM_TOKEN` and paste the token into the `Secret` field
 5. Click **Add Secret**
 
-**Don't forget to set `.release-it.json`'s `npm.publish` field to `true`**
+**Don't forget to set `.release-it.json`'s `npm.publish` field to `true`** and `package.json`'s `private` field to `false`.
 
 ---
 ### Configure Documentation Deployment
